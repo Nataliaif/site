@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="Imagens/favicon.ico" />
+    <link   href="CSS/csslogin.css" rel="stylesheet"></a>
+    <meta charset="utf-8" />
+    <title>Login</title>
+</head>
+
+<body>
+
+<header> <a href="index.html"> <img src="Imagens/Natflix.png"  alt=Logotipo id="logo"></a>
+
+
+  <section id="divBusca">
+	  <form action="index.html" method="post">
+		<input type="text" id="txtBusca" placeholder="Buscar..."/>
+		<input type="submit" name="Pesquisar" value="Pesquisar">
+	  </form>
+    </section>
+
+
+<a href="login.html" id="login" >Login</a>
+
+<a href="cadastro.html" id="cadastro">Cadastro</a>
+
+<nav>
+
+<a href="index.html" class="naveg">Início</a>    
+<a href="index.html#filmes" class="naveg">Filmes</a>     
+<a href="index.html#series" class="naveg">Séries</a>  
+<a href="artistas.html" class="naveg">Artistas</a> 
+
+
+</nav>    
+</header>
+
+<main>
+
+<form action="login.html" method="post">
+
+  <fieldset>
+  <legend>Faça seu login </legend>
+  
+   <label for="email">Email:</label>
+   <input type="text" name="email" class="inp" maxlength="100" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Preencha com um usuário de email válido">
+   
+   <label for="senha">Senha:</label>
+   <input type="password" name="senha" class="inp"  maxlength="100" required placeholder="Preencha com sua senha">
+
+    <input type="submit" name="Enviar" value="Enviar" id="Enviar">
+ 
+  </fieldset>
+	
+</form>
+
+<a href="cadastro.html" id="cadas">Ainda não possui cadastro?Clique aqui!!</a>
+ 
+</main>
+
+<footer>
+<section id="Rodape">
+   <h2> Filmes </h2>
+ <p>
+    <ul>
+	     <li><a href="index.html#filmes">Filmes</a> </li>
+		 
+	</ul>
+ </p>
+ 
+
+
+ <h2> Séries </h2>
+ <p>
+    <ul>
+	     <li><a href="index.html#series">Séries</a></li>
+		 
+	</ul>
+ </p>
+
+
+ 
+ <h2> Artistas </h2>
+ <p>
+    <ul>
+	     <li><a href="artistas.html">Artistas</a></li>
+		 
+	</ul>
+ </p>
+
+
+ 
+ <h2> O Natflix </h2>
+ <p>
+    <ul>
+	     <li><a href="sobre.html">Sobre o Natflix</a></li>
+		 
+	</ul>
+ </p>
+ </section>
+ 
+
+
+<a href="mailto:natibpag@gmail.com" id="Email">
+Enviar e-mail para a desenvolvedora do site
+</a>
+
+<address>
+<p>Natflix@gmail.com</p>
+<p>BR 470 Km 172 nº 6500</p>
+</address>
+ 
+</footer>
+
+</body>
+</html>

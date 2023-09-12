@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="Imagens/favicon.ico" />
+    <link   href="CSS/csscadastro.css" rel="stylesheet"></a>
+    <meta charset="utf-8" />
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+<header> <a href="index.html"> <img src="Imagens/Natflix.png"  alt=Logotipo id="logo"></a>
+
+  <section id="divBusca">
+	  <form action="index.html" method="post">
+		<input type="text" id="txtBusca" placeholder="Buscar..."/>
+		<input type="submit" name="Pesquisar" value="Pesquisar">
+	  </form>
+    </section>
+
+<a href="login.html" id="login" >Login</a>
+
+<a href="cadastro.html" id="cadastro">Cadastro</a>
+
+<nav>
+
+<a href="index.html" class="naveg">Início</a>    
+<a href="index.html#filmes" class="naveg">Filmes</a>     
+<a href="index.html#series" class="naveg">Séries</a>  
+<a href="artistas.html" class="naveg">Artistas</a> 
+
+
+</nav>    
+</header>
+
+<main>
+
+<form action="cadastro.html" method="post">
+
+  <fieldset>
+    <legend>Cadastro</legend>
+	
+   <label class="clear" for="nome">Nome:</label>
+   <input type="text" name="nome" class="inp clear" size="30" maxlength="100" required pattern="[aA-zZ\s]+$" placeholder="Preencha somente com letras">
+   
+   <label class="clear" for="nome">Sobrenome:</label>
+   <input type="text" name="nome" class="inp clear" size="30" maxlength="100" required pattern="[aA-zZ\s]+$" placeholder="Preencha somente com letras">
+
+   <label class="clear" for="data">Data de aniversário:</label>
+   <input type="text" name="data" class="inp clear" size="30" maxlength="100" required pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" placeholder="Exemplo: 00/00/0000">
+
+   <label class="clear" for="email">Email:</label>
+   <input type="text" name="email" class="inp clear" size="30" maxlength="100" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Preencha com um usuário de email válido">
+   
+   <label class="clear" for="senha">Senha:</label>
+   <input type="password" name="senha" class="inp clear" size="30" maxlength="100" required placeholder="Crie uma senha">
+
+<p>
+    <input type="submit" name="Enviar" class="clear" id="Enviar">
+	
+	</p>
+	</fieldset>
+</form>
+
+<a href="login.html">Já possui cadastro?  Clique aqui para fazer login!!</a>
+
+</main>
+
+<footer>
+<section id="Rodape">
+   <h2> Filmes </h2>
+ <p>
+    <ul>
+	     <li><a href="index.html#filmes">Filmes</a> </li>
+		 
+	</ul>
+ </p>
+ 
+
+
+ <h2> Séries </h2>
+ <p>
+    <ul>
+	     <li><a href="index.html#series">Séries</a></li>
+		 
+	</ul>
+ </p>
+
+
+ 
+ <h2> Artistas </h2>
+ <p>
+    <ul>
+	     <li><a href="artistas.html">Artistas</a></li>
+		 
+	</ul>
+ </p>
+
+
+ 
+ <h2> O Natflix </h2>
+ <p>
+    <ul>
+	     <li><a href="sobre.html">Sobre o Natflix</a></li>
+		 
+	</ul>
+ </p>
+ </section>
+ 
+
+
+<a href="mailto:natibpag@gmail.com" id="Email">
+Enviar e-mail para a desenvolvedora do site
+</a>
+
+<address>
+<p>Natflix@gmail.com</p>
+<p>BR 470 Km 172 nº 6500</p>
+</address>
+ 
+</footer>
+
+</body>
+</html>   
